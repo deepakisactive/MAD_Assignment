@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -32,11 +33,19 @@ android {
 }
 
 dependencies {
+    // Firebase Auth SDK
+    implementation("com.google.firebase:firebase-auth:21.0.5")
+    // Google Sign-In SDK
+    implementation("com.google.android.gms:play-services-auth:20.2.0")
 
-    implementation(libs.appcompat)
+    implementation("androidx.appcompat:appcompat:1.3.1")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.auth)
+    implementation(libs.credentials)
+    implementation(libs.credentials.play.services.auth)
+    implementation(libs.googleid)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

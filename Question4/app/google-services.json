@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "150818952862",
+    "project_id": "assignmentq4authenticati-43c65",
+    "storage_bucket": "assignmentq4authenticati-43c65.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150818952862:android:284a222b646f74fff24d8f",
+        "android_client_info": {
+          "package_name": "com.example.question4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150818952862-nbmcdp1bc10rhl92prrrpq0cg9pbai80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.question4",
+            "certificate_hash": "e2d798ca616224f15dae3b1e24ecb74e0488f0d9"
+          }
+        },
+        {
+          "client_id": "150818952862-nfi1a544gle26u62fpj1l763ran4lb68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDykul2Z9rlIAspqXUmF-hbl9QneWfUVuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150818952862-nfi1a544gle26u62fpj1l763ran4lb68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
